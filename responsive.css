@@ -119,7 +119,69 @@
     right: 20px;
     bottom: 20px;
   }
+
+  .cd-vertical-nav{
+    display: none;
+  }
+
+  /* show hide section */
+  #home,
+  #about,
+  #project,
+  /* #skill, */
+  #contact {
+    display: none;
+  }
+
+  /* ################# Section : Home ################ */
+  .home-inner{
+    height: 100vh;
+  }
+
+  .welcome-text{
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+  .home-heading{
+    left: 20px;
+  }
+  .home-heading span {
+    font-size: 3.7em;
+  }
+
+
+  /* ################# Section : about  ################# */
+.about-inner{
+  position: static;
+  height: auto;
 }
+.about-me{
+  position: static;
+}
+.about-me h3{
+  margin-top: 50px;
+  margin-left: 20px;
+  font-size: 3em;
+}
+.profile{
+  position:static;
+  width: 20vh;
+  height: 24vh;
+  margin-top: 50px;
+  margin-left: 20px;
+  transform: none;
+  border: 1px solid #000;
+
+}
+.about-items{
+  position: static;
+  width: 95%;
+  margin-left: 10px;
+  margin-top: 50px;
+  transform: none;
+}
+}
+
 
 
 

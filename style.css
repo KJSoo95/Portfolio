@@ -233,6 +233,9 @@ left: 16vh;
 }
 .profile {
   background-image: url(./images/profile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
   width: 14vh;
   height: 18vh;
   position: absolute;
