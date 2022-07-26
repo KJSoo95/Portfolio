@@ -125,13 +125,14 @@
   }
 
   /* show hide section */
-  #home,
+  /* #home,
   #about,
   #project,
-  /* #skill, */
-  #contact {
+  #contact,
+  #skill
+   {
     display: none;
-  }
+  } */
 
   /* ################# Section : Home ################ */
   .home-inner{
@@ -146,7 +147,7 @@
     left: 20px;
   }
   .home-heading span {
-    font-size: 3.7em;
+    font-size: 3.4em;
   }
 
 
@@ -180,9 +181,84 @@
   margin-top: 50px;
   transform: none;
 }
+.item{
+  margin-bottom: 0px;
+}
+
+/* ############## Section : project  ##############*/
+.project-inner{
+  height: auto;
+}
+.project-info{
+  padding: 20px;
+}
+.tab > div {
+  float: none;
+  width: 100%;
+}
+.view-project{
+  width: 100%;
+}
+.detail  div {
+  width: 32%;
+}
+.vogue, .minions, .witcher{
+  margin-top: 0px;
+}
+.btn {
+  position: static;
+  width: 100%;
+}
+
+/* ################# Section : skill  ##################*/
+.skill-inner{
+  height: auto;
+  padding: 20px;
+}
+.skill-feature{
+  position: static;
+  transform: none;
+  width: 100%;
+}
+.skill-feature > div {
+  height: auto;
+}
+.skill-heading{
+  width: 100%;
+  padding-right: 0px;
+}
+.slick-dotted.slick-slider {
+  margin-bottom: 0px;
+}
+.slick-dots {
+position: static;
+}
+.history-slider div {
+  outline: none;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+
+/* #################### Section : contact  ####################*/
+.contact-inner{
+  height: 60vh;
+}
+.contact-feature{
+  position: static;
+  width: 100%;
+  transform: none;
+}
+.contact-feature > div{
+  float: none;
+  width: 100%;
+}
+.contact-form h3{
+  margin-top: 50px;
 }
 
 
+
+}
 
 
 
