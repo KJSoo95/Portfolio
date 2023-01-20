@@ -288,13 +288,13 @@ left: 16vh;
 }
 .tabs {
   height: 100%;
-  width: 300%;
+  width: 400%;
   transition: 0.5s;
 }
 .tab {
   height: 100%;
   float:  left;
-  width: 33.333333%;
+  width: 25%;
 }
 .tab > div {
   height: 100%;
@@ -352,8 +352,9 @@ input[name=tabmenu] {
 
 input[id=tab1]:checked ~ .btn label[for=tab1]:before,
 input[id=tab2]:checked ~ .btn label[for=tab2]:before, 
-input[id=tab3]:checked ~ .btn label[for=tab3]:before {
-  border: 1px solid #aaa;
+input[id=tab3]:checked ~ .btn label[for=tab3]:before, 
+input[id=tab4]:checked ~ .btn label[for=tab4]:before {
+border: 1px solid #aaa;
 }
 
 input[id=tab1]:checked ~ .tabs {
@@ -364,6 +365,9 @@ input[id=tab2]:checked ~ .tabs {
 }
 input[id=tab3]:checked ~ .tabs {
   margin-left: -200%;
+}
+input[id=tab4]:checked ~ .tabs {
+  margin-left: -300%;
 }
 
 /* Project info */
@@ -376,7 +380,7 @@ input[id=tab3]:checked ~ .tabs {
   position: relative;
 }
 .project-info p {
-  height: 100px;
+  height: 180px;
   font-size: 18px;
   line-height: 1.5em;
   margin-top: 50px;
