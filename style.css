@@ -1,20 +1,27 @@
 /* Google Web Font : Montserrat */
-@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Manrope:300,400,500,600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Manrope:300,400,500,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Overpass&display=swap");
 
 /* FontAwesome CDN 4.7 */
-@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
 /* Reset CSS */
-* { box-sizing: border-box; }
-ul { list-style: none; padding: 0; }
-a { text-decoration: none; }
+* {
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
 
 /* Default CSS */
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #222;
   font-size: 15px;
   margin: 0;
@@ -66,7 +73,8 @@ header {
 .menu {
   display: none;
 }
-.menu a {}
+.menu a {
+}
 .slogan {
   font-size: 16px;
   font-style: italic;
@@ -92,7 +100,7 @@ header {
   margin-right: 5px;
 }
 .btn-hiring:active {
-  transform: scale(0)
+  transform: scale(0);
 }
 
 /* ################# Section : Home ################ */
@@ -101,7 +109,7 @@ header {
   height: 100%;
 }
 .home-inner:before {
-  content: '';
+  content: "";
   background-color: #000;
   position: absolute;
   width: 10px;
@@ -120,8 +128,8 @@ header {
   text-align: center;
   line-height: 1.2em;
   margin: 0;
-  font-family: 'Source Sans Pro', sans-serif;
-  animation: slideup 2s linear; 
+  font-family: "Source Sans Pro", sans-serif;
+  animation: slideup 2s linear;
   animation-fill-mode: both;
 }
 .welcome-text span {
@@ -220,10 +228,10 @@ header {
   /*background-color: #0dace3;*/
   position: relative;
 }
-.about-me{
-position: absolute;
-top: 9vh;
-left: 16vh;
+.about-me {
+  position: absolute;
+  top: 9vh;
+  left: 16vh;
 }
 .about-me h3 {
   display: inline-block;
@@ -274,7 +282,7 @@ left: 16vh;
   overflow: hidden;
   font-size: 19px;
 }
-.item .level{
+.item .level {
   transform: rotate(90deg);
   margin: 0 10px;
 }
@@ -293,7 +301,7 @@ left: 16vh;
 }
 .tab {
   height: 100%;
-  float:  left;
+  float: left;
   width: 25%;
 }
 .tab > div {
@@ -310,11 +318,12 @@ left: 16vh;
 .vogue {
   margin-top: 100px;
 }
-.minions, .witcher {
+.minions,
+.witcher {
   margin-top: 50px;
 }
 
-input[name=tabmenu] {
+input[name="tabmenu"] {
   display: none;
 }
 .btn {
@@ -335,7 +344,7 @@ input[name=tabmenu] {
   position: relative;
 }
 .btn label:before {
-  content: '';
+  content: "";
   display: inline-block;
   border: 1px solid transparent;
   width: 17px;
@@ -350,23 +359,23 @@ input[name=tabmenu] {
   border: 1px solid #aaa;
 }
 
-input[id=tab1]:checked ~ .btn label[for=tab1]:before,
-input[id=tab2]:checked ~ .btn label[for=tab2]:before, 
-input[id=tab3]:checked ~ .btn label[for=tab3]:before, 
-input[id=tab4]:checked ~ .btn label[for=tab4]:before {
-border: 1px solid #aaa;
+input[id="tab1"]:checked ~ .btn label[for="tab1"]:before,
+input[id="tab2"]:checked ~ .btn label[for="tab2"]:before,
+input[id="tab3"]:checked ~ .btn label[for="tab3"]:before,
+input[id="tab4"]:checked ~ .btn label[for="tab4"]:before {
+  border: 1px solid #aaa;
 }
 
-input[id=tab1]:checked ~ .tabs {
+input[id="tab1"]:checked ~ .tabs {
   margin-left: 0;
 }
-input[id=tab2]:checked ~ .tabs {
+input[id="tab2"]:checked ~ .tabs {
   margin-left: -100%;
 }
-input[id=tab3]:checked ~ .tabs {
+input[id="tab3"]:checked ~ .tabs {
   margin-left: -200%;
 }
-input[id=tab4]:checked ~ .tabs {
+input[id="tab4"]:checked ~ .tabs {
   margin-left: -300%;
 }
 
@@ -387,12 +396,12 @@ input[id=tab4]:checked ~ .tabs {
   word-break: keep-all;
 }
 .project-info span {
- font-style: italic;
- font-weight: bold;
- font-size: 1.4em;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.4em;
 }
 .project-info ul li:before {
-  content:"\f105";
+  content: "\f105";
   font-family: fontawesome;
   margin-right: 10px;
 }
@@ -409,13 +418,13 @@ input[id=tab4]:checked ~ .tabs {
   color: #999;
   overflow: hidden;
 }
-.detail img{
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-object-fit: cover;
+.detail img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .detail div span {
   font-size: 36px;
@@ -453,7 +462,6 @@ object-fit: cover;
   left: 10px;
 }
 
-
 /* ################# Section : skill  ##################*/
 .skill-inner {
   background-color: #1d1b24;
@@ -478,7 +486,7 @@ object-fit: cover;
   padding-right: 50px;
 }
 .skill-heading h2,
-.history-info h2{
+.history-info h2 {
   color: #fff;
   margin: 0;
 }
@@ -494,8 +502,7 @@ object-fit: cover;
   border-radius: 10px;
 }
 .skill-heading hr.bar,
-.history-info hr.bar
-{
+.history-info hr.bar {
   width: 5em;
   height: 2px;
   color: dodgerblue;
@@ -569,7 +576,7 @@ object-fit: cover;
 
 /* ############ SubPage : Hiring ############ */
 .modal {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 .header {
   position: fixed;
@@ -606,7 +613,7 @@ object-fit: cover;
 }
 .hiring-heading span:before,
 .hiring-heading span:after {
-  content: '';
+  content: "";
   height: 2px;
   background-color: #000;
   width: 50px;
@@ -668,8 +675,8 @@ object-fit: cover;
   position: relative;
 }
 .hiring-slogan p:before {
-  content: ',,';
-  font-family: 'Overpass', sans-serif;
+  content: ",,";
+  font-family: "Overpass", sans-serif;
   font-size: 200px;
   position: absolute;
   color: #ddd;
@@ -690,7 +697,8 @@ object-fit: cover;
 .hiring-contact ul li:last-child {
   color: dodgerblue;
 }
-.sns {}
+.sns {
+}
 .sns a {
   font-size: 15px;
   color: #000;
@@ -705,7 +713,7 @@ object-fit: cover;
   transition: 0.3s;
 }
 .sns a:before {
-  content: '';
+  content: "";
   position: absolute;
   width: inherit;
   height: inherit;
@@ -728,7 +736,7 @@ object-fit: cover;
   background-color: #55acee;
 }
 .sns a:nth-child(3):before {
-  background-color: #0077B5;
+  background-color: #0077b5;
 }
 .sns a:nth-child(4):before {
   background-color: #e4405f;
@@ -737,18 +745,5 @@ object-fit: cover;
   background-color: #cd201f;
 }
 .sns a:nth-child(6):before {
-  background-color: #25D366;
+  background-color: #25d366;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
